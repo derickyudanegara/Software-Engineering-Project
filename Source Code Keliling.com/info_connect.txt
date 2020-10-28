@@ -1,0 +1,38 @@
+<?php
+    
+    
+    
+    
+    
+    $conn = mysqli_connect("sql209.epizy.com", "epiz_25631235", "MtSmfzEaHX1x") or die("Unable to conect");
+    mysqli_select_db($conn, 'epiz_25631235_kelilingcom',);
+    
+    // $conn = mysqli_connect("localhost", "root", "root", "kelilingcom")
+
+    // function registerCK($data){
+    //     global $conn;
+
+    //     $username = strtolower(stripslashes($data["username"]));
+    //     $password = mysqli_real_escape_string($conn, $data["password"]);
+    //     $password2 = mysqli_real_escape_string($conn, $data["password2"]);
+    
+    //     if( $password !== $password2 ){
+    //         echo "<script> alert('Wrong Confirmation Password!); </script>";
+    //         return false;
+    //     }
+    // }
+
+?>
+
+
+
+forum
+===========
+
+
+<?php
+
+    $conn = mysqli_connect("sql209.epizy.com", "epiz_25631235", "MtSmfzEaHX1x") or die("Unable to conect");
+    mysqli_select_db($conn, 'epiz_25631235_kelilingcom',);
+
+?>

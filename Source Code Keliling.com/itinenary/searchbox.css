@@ -1,0 +1,29 @@
+.search-container {
+  margin-top: 7px;
+  position: absolute;
+  margin-left: -400px;
+}
+
+.title-container input[type=text] {
+  padding: 7px;
+  margin-top: 3px;
+  font-size: 17px;
+  border: none;
+  border: 2px solid black;
+}
+
+.title-container .search-container button {
+  float: right;
+  padding: 7px 13px;
+  margin-top: 3px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  border: 2px solid black;
+}
+
+.title-container .search-container button:hover {
+  background: #ccc;
+}
