@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KELILING.COM</title>
+    
+    <link rel = "icon" href =  "../image/skuy_travel.png"  type = "image/x-icon"> 
+    <link rel="stylesheet" href="forumCSS.css">
+</head>
+<body>
+
+
+    
+    <div id="body-outer">
+        <div id="body-upper">
+    
+            <div id="body-upper-container">
+                <img id=jogja src="./image/jogja.jpg" alt="" style="width:100%;">
+                
+            </div>
+
+            <div class="text-block">
+                <div class="text">
+                    <h4 >3 DAYS <br>
+                        TRIP <br>
+                        IN<br>JOGJA</h4>
+                  </div>
+            </div>
+        </div>
+            <!--  -->
+        <div id="body-mid">
+            <div class="mid-upper">
+                <h1 class="text-mid">DAY</h1>
+                <div class="number">
+                    <button class="num-mid" onclick="showPanel(0,'#CACFD2')">1</button>
+                    <button class="num-mid" onclick="showPanel(1,'#CACFD2')">2</button>
+                    <button class="num-mid" onclick="showPanel(2,'#CACFD2')">3</button>
+                </div>
+
+                <div class="mid-content-view">
+                    <div class= mid-mid>
+                        <div class="mid-content">
+                            <div class="list">
+                            <h3 class= mid>Hotel Regia (Dago)</h3> 
+                            </div>
+                            <div class="list">  
+                            <h3 class= mid>Museum Gedung Sate</h3>
+                            </div>
+                            <div class="list">
+                            <h3 class= mid>Museum Konferensi Asia Afrika</h3> 
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class= mid-mid>
+                        <div class="mid-content">
+                            <div class="list">
+                            <h3 class= mid>Stasiun Yogyakarta</h3> 
+                            </div>
+                            <div class="list">  
+                            <h3 class= mid>Stasiun Yogyakarta</h3>
+                            </div>
+                            <div class="list">
+                            <h3 class= mid>Stasiun Yogyakarta</h3> 
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class= mid-mid>
+                        <div class="mid-content">
+                            <div class="list">
+                            <h3 class= mid>Stasiun Yogyakarta</h3> 
+                            </div>
+                            <div class="list">  
+                            <h3 class= mid>Stasiun Yogyakarta</h3>
+                            </div>
+                            <div class="list">
+                            <h3 class= mid>Stasiun Yogyakarta</h3> 
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id = "mid-right">
+                        <div class="view">
+                            <h3>view detail</h3>
+                        </div>
+                        <div class="view">
+                            <h3>view detail</h3>
+                        </div>
+                        <div class="view">
+                            <h3> view detail</h3>
+                        </div>
+                    </div>
+                </div>
+                
+                </div>
+                
+        </div>
+
+
+            
+
+        <div id="body-bottom">
+                <div class="container">
+                <div class="mySlides">
+                    <div class="numbertext">1 / 6</div>
+                    <img class="img-bottom" src="image/bogor.jpg" style="width:100%;">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">2 / 6</div>
+                    <img class="img-bottom" src="image/bondowoso.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">3 / 6</div>
+                    <img class="img-bottom"src="image/jogja.jpg" style="width:100%">
+                </div>
+                    
+                <div class="mySlides">
+                    <div class="numbertext">4 / 6</div>
+                    <img class="img-bottom" src="image/karimun.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">5 / 6</div>
+                    <img class="img-bottom"src="image/lembang.jpg" style="width:100%">
+                </div>
+                    
+                <div class="mySlides">
+                    <div class="numbertext">6 / 6</div>
+                    <img class="img-bottom"src="image/Malang.jpg" style="width:100%">
+                </div>
+                    
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+
+                <div class="caption-container">
+                    <p id="caption"></p>
+                </div>
+
+                <div class="row">
+                    <div class="column">
+                    <img class="demo cursor img-bottom" src="image/bogor.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+                    </div>
+                    <div class="column">
+                    <img class="demo cursor img-bottom" src="image/bondowoso.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+                    </div>
+                    <div class="column">
+                    <img class="demo cursor img-bottom" src="image/jogja.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+                    </div>
+                    <div class="column">
+                    <img class="demo cursor img-bottom" src="image/karimun.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+                    </div>
+                    <div class="column">
+                    <img class="demo cursor img-bottom" src="image/lembang.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+                    </div>    
+                    <div class="column">
+                    <img class="demo cursor img-bottom" src="image/Malang.jpg"style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+
+
+        // day
+
+    //    var dayIndex=1;
+    //    showDays(dayIndex);
+
+    //    function
+
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+        showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+        showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("demo");
+        var captionText = document.getElementById("caption");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+        captionText.innerHTML = dots[slideIndex-1].alt;
+        }
+        </script>
+      
+      <script>
+        var tabButtons=document.querySelectorAll(".mid-upper .number button");
+        var tabPanels=document.querySelectorAll(".mid-upper  .mid-mid");
+    
+        function showPanel(panelIndex,colorCode) {
+            tabButtons.forEach(function(node){
+                node.style.backgroundColor="";
+                node.style.color="";
+            });
+            tabButtons[panelIndex].style.backgroundColor=colorCode;
+            tabPanels.forEach(function(node){
+                node.style.display="none";
+            });
+            tabPanels[panelIndex].style.display="block";
+        }
+        showPanel(0,'#CACFD2');
+    </script>
+
+
+</body>
+</html>

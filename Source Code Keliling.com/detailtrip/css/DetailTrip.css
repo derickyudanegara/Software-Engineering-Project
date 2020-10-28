@@ -1,0 +1,270 @@
+
+body{
+  cursor: default;
+}
+#navbar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #navbar-left-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  #navbar-right-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .navbar-text {
+    padding: 10px;
+  }
+  
+  .navbar-button {
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+  }
+  
+  .navbar-button:hover {
+    background-color:blue;
+  }
+  
+  * {box-sizing:border-box}
+  
+  /* body container */
+
+  #body-outer{
+    margin-top: 2%;
+  }
+  #body-left-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #jogja{
+    width: 100%;
+  }
+
+  .text-block {
+   
+    position: absolute;
+    margin-bottom: 25px;
+    top:11%;
+    right: 0px;
+    bottom: 0px; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-top: 5%;
+    padding-bottom: 0%;
+    
+  }
+
+  .text{
+    color:  white;
+    font-size: 250%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin : 0px;
+  }
+
+  #body-mid{
+    margin-top: 0%;
+  }
+  #mid-upper{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+  }
+
+  .text-mid{
+    margin-right: 4%;
+  }
+
+  #number{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start ;
+  }
+
+.num-mid{
+  
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+
+  background-color: rgb(150, 158, 152); /* Green */
+  border: 50px black;
+  color: black;
+  padding: 0px 20px 0px 25px;
+  text-align: center;
+  display: inline-block;
+  font-size: 30px;
+  cursor: default;
+  font-weight: bolder;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+#mid-mid{
+  margin-top: 5%; 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+ 
+}
+
+#mid-content{
+  /* display: flex;
+  flex-direction: column ;
+  justify-content: center;
+  align-items: center; */
+}
+.mid{
+  
+  border-radius: 50%;
+  padding: 0px 20px 0px 20px;
+  margin-right: 10%;
+}
+
+.list{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  background-color: rgb(216, 216, 216);
+  border-radius: 250px;
+  width: 400px;
+  height: 200px;
+  padding: 0px;
+  margin: 10%;
+}
+
+#mid-right{
+  /* display: flex;
+  flex-direction: column ;
+  justify-content: flex-start;
+  align-content: flex-start;
+} */}
+.view{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  align-content: center;
+  background-color: rgb(216, 216, 216);
+  border-radius: 250px;
+  width: 200px;
+  height: 100px;
+  margin: 70% 0%;
+}
+
+/* h3{
+  padding: 0 ;
+} */
+
+#body-bottom{
+  margin-top: 10%;
+}
+
+img{
+
+  vertical-align:middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+  
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}

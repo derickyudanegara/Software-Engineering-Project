@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 50, 0.5),rgba(0, 0, 50, 0.5)),url(background.jpg);
+    background-position: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#navbar-container {
+    z-index: 9999;
+    overflow: hidden;
+    padding: 10px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: linear-gradient(-90deg, rgb(56, 53, 219), rgb(0, 242, 250));
+    border-bottom: 2px solid black;
+  }
+  
+  .sticky {
+    position: sticky;
+    top: 0;
+  }
+  
+  .navbar-left-container{
+  
+    display: flex;
+    flex-direction: row;
+  
+  }
+  
+  .navbar-left-container img{
+    height: 30px;
+    width: 30px;
+  }
+  
+  
+  .navbar-left-container span{
+  
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    margin: 5px;
+  }
+  
+  .navbar-right-outer{
+  
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .navbar-right-outer div {
+    margin: 10px;
+  }
+  
+  .navbar-right-outer div a{
+    margin: 0 30px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  
+  }
+  
+  
+  a.active,a:hover{
+    background-color: rgb(81, 30, 221);    
+    transform: .5s;
+}
+
+
+  .user{
+  
+    display: flex;
+  }
+  
+  .user a{
+    text-decoration: none;
+    display: flex;
+  
+    border: 2px solid gold;
+    border-radius: 5px;
+  }
+  
+  .user a span{
+    padding: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  }
+  
+  .user a :hover{
+    background-color: rgb(81, 30, 221);  
+  }
+
+
+
+.contact-title {
+    margin-top: 100px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+}
+
+.contact-title h1 {
+    font-size: 32px;
+    line-height: 10px;
+}
+
+form {
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+
+.form-control {
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+input {
+    height: 45px;
+}
+
+form .submit {
+    background-color: orange;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+form .submit:hover {
+    background-color: burlywood;
+    cursor: pointer;
+}

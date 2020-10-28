@@ -1,0 +1,460 @@
+
+body{
+  cursor: default;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(180deg, rgb(143, 255, 227), white, rgb(189, 253, 255), white);
+
+}
+#navbar-container {
+  z-index: 9999;
+  overflow: hidden;
+  padding: 10px 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-image: linear-gradient(-90deg, rgb(56, 53, 219), rgb(0, 242, 250));
+  border-bottom: 2px solid black;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+}
+
+.navbar-left-container{
+
+  display: flex;
+  flex-direction: row;
+
+}
+
+.navbar-left-container img{
+  height: 30px;
+  width: 30px;
+}
+
+
+.navbar-left-container span{
+
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  margin: 5px;
+}
+
+.navbar-right-outer{
+
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-right-outer div {
+  margin: 10px;
+}
+
+.navbar-right-outer div a{
+  margin: 0 30px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+
+}
+
+.navbar-right-outer div a:hover{
+  background-color: rgb(81, 30, 221);
+}
+
+.user{
+
+  display: flex;
+}
+
+.user a{
+  text-decoration: none;
+  display: flex;
+
+  border: 2px solid gold;
+  border-radius: 5px;
+}
+
+.user a span{
+  padding: 10px 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.user a :hover{
+  background-color: white;
+}
+
+  * {box-sizing:border-box}
+  
+  /* body container */
+
+
+  .penulis{
+    margin: 20px;
+    
+  }
+  
+  * {box-sizing:border-box}
+  
+  /* body container */
+
+  #body-outer{
+
+  }
+  #body-left-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #jogja{
+    width: 100%;
+  }
+
+  
+
+  .text-block {
+   
+    position: absolute;
+    margin-bottom: 25px;
+    top: 70px;
+    right: 0px;
+    bottom: 0px; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-top: 5%;
+    padding-bottom: 0%;
+    margin-top: 170px;
+    height: 1000px;
+  }
+
+  .text{
+    color:  white;
+    font-size: 250%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin : 0px;
+  }
+
+  #body-mid{
+    margin-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+
+  }
+  .mid-upper{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+
+
+  #number{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start ;
+  }
+
+.mid-content-view{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  
+}
+
+.num-mid{
+  
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+
+  border: 3px solid black;
+  color: black;
+  padding: 0px 20px 0px 25px;
+  text-align: center;
+  display: inline-block;
+  font-size: 30px;
+  cursor: default;
+  font-weight: bolder;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 30px;
+}
+
+
+
+.mid-right{
+  margin-top: 5%; 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.mid-content{
+  /* display: flex;
+  flex-direction: column ;
+  justify-content: center;
+  align-items: center; */
+}
+
+
+.list{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  background-color: rgb(216, 216, 216);
+  border-radius: 250px;
+  width: 500px;
+  height: 200px;
+  padding: 0px;
+  margin: 10%;
+  font-size: 20px;
+}
+
+.view{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  background-color: rgb(216, 216, 216);
+  border-radius: 250px;
+  width: 200px;
+  height: 100px;
+  padding: 0px;
+  margin-left: 120px;
+  margin-top: 95px;
+  margin-bottom: 150px;
+}
+
+/* h3{
+  padding: 0 ;
+} */
+
+#body-bottom{
+  margin-top: 10%;
+}
+
+img{
+
+  vertical-align:middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+  
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+
+.user-post{
+  margin: 30px;
+  padding: 15px 0;
+  position: relative;
+}
+
+.user-post span{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+
+#demo{
+    position: relative;
+    top: 7px;
+    font-size: 15px;
+}
+
+.backbtn{
+  margin-top: 40px;
+  margin-left: 30px;
+  
+}
+
+.backbtn li{
+  background-color: violet;
+  padding: 10px 20px;
+  padding: px 30px;
+}
+
+.backbtn a{
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: rgb(255, 255, 255);
+  font-family: 'Montserrat', sans-serif;
+  border: 2px solid black;
+}
+
+.backbtn a:hover{
+  background-color: rgb(251, 255, 1);
+}
+
+
+textarea{
+  width: 400px;
+  height: 150px;
+  background-color: white;
+  resize: none;
+}
+
+button {
+  width:  100px;
+  height: 30px;
+  background-color: gray;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+.comment-box{
+  width: 780px;
+  margin: 30px;
+  padding: 20px;
+  margin-bottom: 30px;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 10px 10px 5px grey;
+  background-color: lightgray;
+}
+
+.comment-box p{
+  font-family: 'Montserrat', sans-serif;
+  
+  font-size: 14px;
+  line-height: 20px;
+  color: #282828;
+}
+
+.comment-box p{
+  word-break: break-all;
+}
+
+.comment-container{
+  margin: 20px;
+}
+
+.comment-container h1{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.comment-container h4{
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+
+.description p{
+text-align:justify;
+margin: 50px 200px;
+line-height: 2;
+color: rgb(0, 0, 0);
+font-weight: bold;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 20px;
+}
+
+.description h3{
+  margin-top: 100px;
+  text-align: center;
+  text-shadow: 1px 0 black, 0 0px black, 1px 0 black, 0 1px black;
+  letter-spacing: 1px;
+  font-size: 30px;
+  color: aqua;
+}

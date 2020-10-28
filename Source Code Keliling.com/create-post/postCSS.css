@@ -1,0 +1,279 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient( rgb(111, 84, 231), rgb(51, 240, 136));
+    background-attachment: fixed;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  #navbar-container {
+    z-index: 9999;
+    overflow: hidden;
+    padding: 10px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: linear-gradient(-90deg, rgb(56, 53, 219), rgb(0, 242, 250));
+    border-bottom: 2px solid black;
+  }
+  
+  .sticky {
+    position: sticky;
+    top: 0;
+  }
+  
+  .navbar-left-container{
+  
+    display: flex;
+    flex-direction: row;
+  
+  }
+  
+  .navbar-left-container img{
+    height: 30px;
+    width: 30px;
+  }
+  
+  
+  .navbar-left-container span{
+  
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    margin: 5px;
+  }
+  
+  .navbar-right-outer{
+  
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .navbar-right-outer div {
+    margin: 10px;
+  }
+  
+  .navbar-right-outer div a{
+    margin: 0 30px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  
+  }
+  
+  .navbar-right-outer div a:hover{
+    background-color: rgb(81, 30, 221);
+  }
+  
+  .user{
+  
+    display: flex;
+  }
+  
+  .user a{
+    text-decoration: none;
+    display: flex;
+  
+    border: 2px solid gold;
+    border-radius: 5px;
+  }
+  
+  .user a span{
+    padding: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  }
+  .user a span:hover{
+    background-color: rgb(81, 30, 221);  
+  }
+  .create{
+      background-color: white;
+  }
+  
+  
+  
+  
+  
+  
+  .create-container{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .create-container div{
+    margin: 30px;
+    
+  }
+  
+  .create-container div span{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px #000000;
+    color: yellow;
+    font-size: 50px;
+  
+  }
+  
+  .info-create{
+    display: flex;
+    justify-content: left;
+    margin: 30px;
+  }
+  
+  .info-create div{
+    display: flex;
+    flex-direction: column;
+  
+  }
+  
+  .info-create div pre{
+    font-size: 30px;
+    font: bold;
+  }   
+  
+  .post-btn{
+    display: flex;
+    justify-content: center;
+  
+  }
+  
+  
+  
+  .post-btn form input{
+    margin: 100px;
+    color: red;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    background-color: yellow;
+    border: 2px solid black;
+    border-radius: 3px;
+    margin: 30px;
+    padding: 10px 30px;
+  }
+  
+  .post-btn form input:hover{
+    background-color: aqua;
+  }
+  
+  
+.text-box{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px #000000;
+    color: rgb(255, 193, 22);
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.visited{
+    font-size:25px;
+    color: rgb(255, 255, 255);
+}
+
+  .tst{
+    width: 400px;
+    height: 150px;
+    background-color: white;
+    resize: none;
+    border: 2px solid black;
+  }
+  
+  .create-desc{
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  
+  .day-container{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px #000000;
+    color: yellow;
+    font-size: 20px;
+  }
+  
+  .day-container span{
+  
+  }
+  
+  #add-day button{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    background-color: yellow;
+    border: 2px solid black;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  
+  #add-day button:hover{
+    background-color: aqua;
+  }
+  
+  .list-kota{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .list-kota label{
+    font-size: 30px;
+    text-shadow: 2px 2px 4px #000000;
+    color: rgb(62, 248, 55);
+    font-size: 20px;
+  }
+  
+  
+  #custom-button {
+    padding: 10px;
+    color: white;
+    background-color: #009578;
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    
+  }
+  
+  #custom-button:hover {
+    background-color: #00b28f;
+    
+  }
+  
+  #custom-text {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 130px;
+  }
+  
+  .add-image{
+    margin: 30px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }

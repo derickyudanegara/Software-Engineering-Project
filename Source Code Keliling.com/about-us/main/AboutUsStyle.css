@@ -1,0 +1,178 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../assets/Ampera.jpg);
+    background-size: cover;
+}
+
+.content_container{
+    /* align-items: center; */
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 200px;
+}
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.banner h1{
+    text-align: center;
+
+}
+
+.text{
+    font-size: 20px;
+    height: 100px;
+    width: 800px;
+    text-align: justify;
+  text-justify: inter-word;
+}
+
+#navbar-container {
+    z-index: 9999;
+    overflow: hidden;
+    padding: 10px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: linear-gradient(-90deg, rgb(56, 53, 219), rgb(0, 242, 250));
+    border-bottom: 2px solid black;
+  }
+  
+  .sticky {
+    position: sticky;
+    top: 0;
+  }
+  
+  .navbar-left-container{
+  
+    display: flex;
+    flex-direction: row;
+  
+  }
+  
+  .navbar-left-container img{
+    height: 30px;
+    width: 30px;
+  }
+  
+  
+  .navbar-left-container span{
+  
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    margin: 5px;
+  }
+  
+  .navbar-right-outer{
+  
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .navbar-right-outer div {
+    margin: 10px;
+  }
+  
+  .navbar-right-outer div a{
+    margin: 0 30px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  
+  }
+  
+  
+  a.active,a:hover{
+    background-color: rgb(81, 30, 221);    
+    transform: .5s;
+}
+
+
+  .user{
+  
+    display: flex;
+  }
+  
+  .user a{
+    text-decoration: none;
+    display: flex;
+  
+    border: 2px solid gold;
+    border-radius: 5px;
+  }
+  
+  .user a span{
+    padding: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  }
+  
+  .user a :hover{
+    background-color: rgb(81, 30, 221);  
+  }
+
+
+
+  .footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px;
+  }
+
+.footer-container div{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+
+.oursosmed span{
+    background-color: springgreen;
+    font-size: 30px;
+    padding: 10px 30px;
+}
+
+.oursosmed{
+    margin-bottom: 50px;
+}
+
+  .sosmed{
+      display: flex;
+      justify-content: center;
+  }
+  .sosmed a{
+      background-color: white;
+      margin: 30px;
+      padding: 20px 30px;
+      text-decoration: none;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      
+  }
+
+  .sosmed a img{
+      width: 50px;
+      height: 50px;
+  }
+
+  .sosmed a span{
+      position: relative;
+      bottom: 20px;
+      left: 5px;
+  }
